@@ -1,11 +1,34 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+#CMake ignores
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
 
-# Other files and folders
-.settings/
+#OSX ignores
+.DS_Store
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+#WIN32 ignores
+*.exe
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.idb
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.dll
+*.lastbuildstate
+

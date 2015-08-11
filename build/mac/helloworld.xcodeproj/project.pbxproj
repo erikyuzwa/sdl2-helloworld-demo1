@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C18C1271B786D6100DDA028 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C18C1241B786D6100DDA028 /* SDL2_image.framework */; };
+		5C18C1281B786D6100DDA028 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C18C1251B786D6100DDA028 /* SDL2_mixer.framework */; };
+		5C18C1291B786D6100DDA028 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C18C1261B786D6100DDA028 /* SDL2_ttf.framework */; };
+		5C3564EF1B766ECC00101008 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3564EE1B766ECC00101008 /* SDL2.framework */; };
+		5C4549021B770CE8008D6587 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4549011B770CE8008D6587 /* main.cpp */; };
+		5C8C7AD91B79C7BC006FE61D /* SysAudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C7ACC1B79C7BC006FE61D /* SysAudio.cpp */; };
+		5C8C7ADA1B79C7BC006FE61D /* SysCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C7ACE1B79C7BC006FE61D /* SysCore.cpp */; };
+		5C8C7ADB1B79C7BC006FE61D /* SysFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C7AD01B79C7BC006FE61D /* SysFont.cpp */; };
+		5C8C7ADC1B79C7BC006FE61D /* SysSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C7AD31B79C7BC006FE61D /* SysSprite.cpp */; };
+		5C8C7ADD1B79C7BC006FE61D /* SysTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C7AD51B79C7BC006FE61D /* SysTimer.cpp */; };
+		5C8C7ADE1B79C7BC006FE61D /* MyApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C7AD71B79C7BC006FE61D /* MyApplication.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C3564E21B766E7900101008 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C18C1241B786D6100DDA028 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		5C18C1251B786D6100DDA028 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
+		5C18C1261B786D6100DDA028 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = ../../../../../../Library/Frameworks/SDL2_ttf.framework; sourceTree = "<group>"; };
+		5C3564E41B766E7900101008 /* helloworld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloworld; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3564EE1B766ECC00101008 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		5C4549011B770CE8008D6587 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../source/main.cpp; sourceTree = "<group>"; };
+		5C8C7ACB1B79C7BC006FE61D /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		5C8C7ACC1B79C7BC006FE61D /* SysAudio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SysAudio.cpp; sourceTree = "<group>"; };
+		5C8C7ACD1B79C7BC006FE61D /* SysAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysAudio.h; sourceTree = "<group>"; };
+		5C8C7ACE1B79C7BC006FE61D /* SysCore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SysCore.cpp; sourceTree = "<group>"; };
+		5C8C7ACF1B79C7BC006FE61D /* SysCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysCore.h; sourceTree = "<group>"; };
+		5C8C7AD01B79C7BC006FE61D /* SysFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SysFont.cpp; sourceTree = "<group>"; };
+		5C8C7AD11B79C7BC006FE61D /* SysFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysFont.h; sourceTree = "<group>"; };
+		5C8C7AD21B79C7BC006FE61D /* SysHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysHeaders.h; sourceTree = "<group>"; };
+		5C8C7AD31B79C7BC006FE61D /* SysSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SysSprite.cpp; sourceTree = "<group>"; };
+		5C8C7AD41B79C7BC006FE61D /* SysSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysSprite.h; sourceTree = "<group>"; };
+		5C8C7AD51B79C7BC006FE61D /* SysTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SysTimer.cpp; sourceTree = "<group>"; };
+		5C8C7AD61B79C7BC006FE61D /* SysTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysTimer.h; sourceTree = "<group>"; };
+		5C8C7AD71B79C7BC006FE61D /* MyApplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyApplication.cpp; path = ../../source/MyApplication.cpp; sourceTree = "<group>"; };
+		5C8C7AD81B79C7BC006FE61D /* MyApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyApplication.h; path = ../../source/MyApplication.h; sourceTree = "<group>"; };
+		5C8C7ADF1B79C800006FE61D /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C3564E11B766E7900101008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3564EF1B766ECC00101008 /* SDL2.framework in Frameworks */,
+				5C18C1271B786D6100DDA028 /* SDL2_image.framework in Frameworks */,
+				5C18C1281B786D6100DDA028 /* SDL2_mixer.framework in Frameworks */,
+				5C18C1291B786D6100DDA028 /* SDL2_ttf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C3564DB1B766E7900101008 = {
+			isa = PBXGroup;
+			children = (
+				5C8C7ADF1B79C800006FE61D /* assets */,
+				5C8C7ACA1B79C7BC006FE61D /* core */,
+				5C8C7AD71B79C7BC006FE61D /* MyApplication.cpp */,
+				5C8C7AD81B79C7BC006FE61D /* MyApplication.h */,
+				5C18C1241B786D6100DDA028 /* SDL2_image.framework */,
+				5C18C1251B786D6100DDA028 /* SDL2_mixer.framework */,
+				5C18C1261B786D6100DDA028 /* SDL2_ttf.framework */,
+				5C4549011B770CE8008D6587 /* main.cpp */,
+				5C3564EE1B766ECC00101008 /* SDL2.framework */,
+				5C3564E51B766E7900101008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C3564E51B766E7900101008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C3564E41B766E7900101008 /* helloworld */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C8C7ACA1B79C7BC006FE61D /* core */ = {
+			isa = PBXGroup;
+			children = (
+				5C8C7ACB1B79C7BC006FE61D /* CMakeLists.txt */,
+				5C8C7ACC1B79C7BC006FE61D /* SysAudio.cpp */,
+				5C8C7ACD1B79C7BC006FE61D /* SysAudio.h */,
+				5C8C7ACE1B79C7BC006FE61D /* SysCore.cpp */,
+				5C8C7ACF1B79C7BC006FE61D /* SysCore.h */,
+				5C8C7AD01B79C7BC006FE61D /* SysFont.cpp */,
+				5C8C7AD11B79C7BC006FE61D /* SysFont.h */,
+				5C8C7AD21B79C7BC006FE61D /* SysHeaders.h */,
+				5C8C7AD31B79C7BC006FE61D /* SysSprite.cpp */,
+				5C8C7AD41B79C7BC006FE61D /* SysSprite.h */,
+				5C8C7AD51B79C7BC006FE61D /* SysTimer.cpp */,
+				5C8C7AD61B79C7BC006FE61D /* SysTimer.h */,
+			);
+			name = core;
+			path = ../../source/core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C3564E31B766E7900101008 /* helloworld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3564EB1B766E7900101008 /* Build configuration list for PBXNativeTarget "helloworld" */;
+			buildPhases = (
+				5C3564E01B766E7900101008 /* Sources */,
+				5C3564E11B766E7900101008 /* Frameworks */,
+				5C3564E21B766E7900101008 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloworld;
+			productName = sdl2test1;
+			productReference = 5C3564E41B766E7900101008 /* helloworld */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C3564DC1B766E7900101008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Wazoo Enterprises Inc.";
+				TargetAttributes = {
+					5C3564E31B766E7900101008 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 5C3564DF1B766E7900101008 /* Build configuration list for PBXProject "helloworld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C3564DB1B766E7900101008;
+			productRefGroup = 5C3564E51B766E7900101008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C3564E31B766E7900101008 /* helloworld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C3564E01B766E7900101008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8C7AD91B79C7BC006FE61D /* SysAudio.cpp in Sources */,
+				5C4549021B770CE8008D6587 /* main.cpp in Sources */,
+				5C8C7ADB1B79C7BC006FE61D /* SysFont.cpp in Sources */,
+				5C8C7ADD1B79C7BC006FE61D /* SysTimer.cpp in Sources */,
+				5C8C7ADA1B79C7BC006FE61D /* SysCore.cpp in Sources */,
+				5C8C7ADC1B79C7BC006FE61D /* SysSprite.cpp in Sources */,
+				5C8C7ADE1B79C7BC006FE61D /* MyApplication.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C3564E91B766E7900101008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5C3564EA1B766E7900101008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C3564EC1B766E7900101008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C3564ED1B766E7900101008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C3564DF1B766E7900101008 /* Build configuration list for PBXProject "helloworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3564E91B766E7900101008 /* Debug */,
+				5C3564EA1B766E7900101008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3564EB1B766E7900101008 /* Build configuration list for PBXNativeTarget "helloworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3564EC1B766E7900101008 /* Debug */,
+				5C3564ED1B766E7900101008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C3564DC1B766E7900101008 /* Project object */;
+}
